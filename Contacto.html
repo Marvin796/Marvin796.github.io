@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>GamesMrL</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #99e5f4;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #ff0000;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 0;
+            color: #7bdaf2;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GamesMrL</h1>
+
+        <nav>
+            <ul>
+                <li><a href="proyecto final.html">Home</a></li>
+                <li><a href="Preferencias.html">Preferencias</a></li>
+                <li><a href="Audovisuales.html">Audiovisuales</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor-formulario">
+        <form>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Escribi aqui tu Nombre" required >
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Escribi aqui tu Apellido" required >
+            <label for="Mail">Mail:</label>
+            <input type="text" id="Mail" name="Mail" placeholder="Escribi aqui tu Mail" required >
+            <label for="Pais">Pais:</label>
+            <input type="text" id="Pais" name="Pais" placeholder="Escribi aqui tu Pais" required >
+            <select name="Pais" id="Pais">
+                <option value="Honduras"></option>
+                <option value="Mexico"></option>
+                <option value="Estados Unidos"></option>
+                <option value="España"></option>
+                <option value="Venezuel"></option>
+                <option value="Colombia"></option>
+                <option value="Argentina"></option>
+                <option value="Nicaragua"></option>
+                <option value="Canada"></option>
+            </select>
+            <label for="Comentario">Comentario:</label>
+            <input type="text" id="Comentario" name="Comentario" placeholder="Escribi aqui tu Comentario">
+            <label for="motivo">Comentario:</label>
+            <input type="radio" id="motivo" name="motivo"> <i>Soy Fan</i>
+            <input type="radio" id="motivo" name="motivo"> <i>Quiero mas juegos</i>
+            <input type="radio" id="motivo" name="motivo"> <i>Motivos comerciales</i>
+            <input type="radio" id="motivo" name="motivo"> <i>Ayuda con los juegos</i>
+            <input type="radio" id="motivo" name="motivo"> <i>Patrocinar</i>
+
+            <input type="submit" value="Enviar" >
+    
+
+
+
+
+
+        </form>
+    </div>
+    <footer class="footer"><p>Derechos Reservados &copy; 2024</p></footer>
+
+
+
+   
+
+
+
+</body>
+</html>
